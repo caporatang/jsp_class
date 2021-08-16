@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>게시판 글 쓰기</title>
+</head>
+<body>
+<h3> 게시판</h3>
+<hr color="blue">
+<form action="insert2.jsp">
+제목: <input name="title" type="text"><br>
+글쓴이: <input name="writer" type="text"><br>
+내용: <textarea rows="10" cols="20" placeholder="내용을 입력하세요"
+		name="word"	 >
+	</textarea><br>
+	
+종류: <input type="radio" value="문의사항" name="kind">문의사항()
+	<input type="radio" value="답변" name="kind">답변()
+	 <input type="radio" value="확인" name="kind">확인()<br>
+부서: <select name="sel">
+		<option value="기획부">기획부
+		<option value="총무부">총무부
+		<option value="인사부">인사부
+	</select><br>
+	
+날짜: <input name="date" type="text"><br>
+ <button type="submit">insert2로 넘기기~</button>
+ 
+ </form>
+</body>
+</html>

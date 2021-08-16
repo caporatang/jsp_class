@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>회원가입 입력 폼</title>
+</head>
+<body>
+<h3>회원 가입 입력 화면</h3>
+<hr color="blue">
+
+<form action="insert.jsp">
+아이디: <input name="id" type="text" value="root"> <br>
+패스워드: <input name="pw" type="text"> <br>
+이름: <input name="name" type="text"> <br>
+연락처: 
+	<select name="com">
+		<option value="sk">011 
+		<option value="lg">010 
+		<option value="app">019 
+	</select>
+	<input name="tel" type="text"> <br>
+성별 :
+	<input type="radio" value="man" name="gender">남<!-- 동그라미 선택은 두가지 중에 선택할때 사용, value값을 따로 꼭 입력 해줘야한다. -->
+	<input type="radio" value="woman" name="gender">여<br> <!--네임을 지정해줘야한다. 모든게 다  --> 
+하고 싶은 말 : <textarea rows="10" cols="20" placeholder="여기에 입력하세요" name="word" ></textarea><br> <!-- -->
+
+취미 : <input type="checkbox" name="hobby" value="달리기">달리기
+	<input type="checkbox" name="hobby" value="걷기">걷기
+	<input type="checkbox" name="hobby" value="등산">등산 <br>
+	
+	
+	<button type="submit">회원가입 처리 요청</button>
+
+</form>
+</body>
+</html>

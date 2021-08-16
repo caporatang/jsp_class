@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>회원가입 입력 화면</title>
+</head>
+<body>
+<h3>회원 가입 입력 화면</h3>
+<hr color="red">
+
+<form action="review.jsp">
+아이디: <input name="id" type="text" value="iddddddd"><br>
+패스워도: <input name="pw"> <br>
+이름: <input name="name"><br>
+연락처:
+	<select name="com">
+		<option>011
+		<option>010
+		<option>019
+	</select>
+	<input name="tel"> <br>
+성별:
+	<input type="radio" value="man" name="gender">남
+	<input type="radio" value="woman" name="gender">여<br>
+하고 싶은 말 : <textarea rows="10" cols="20" placeholder="여기에 입력하세요" name="word"></textarea><br>
+취미는? : 
+		<input type="checkbox" name="hobby" value="걷기">걷기
+		<input type="checkbox" name="hobby" value="달리기">달리기
+		<input type="checkbox" name="hobby" value="등산">등산<br>
+
+
+<button> insert로</button>
+</form>
+</body>
+</html>
