@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+#title{
+	height: 40px;
+	valign: "top";
+}
+#center{
+	width: 750px;
+	height: 600px;
+	background-color: white;
+}
+
+
+#top2{
+	width: 300 px;
+	height: 100 px;
+	background: black;
+	color: white;
+	position: fixed;
+	top: 5px;
+	right: 5px;
+	border-radius: 50px 50px 50px 50px;
+	position: fixed;
+}
+
+
+li{
+	list-style: none;
+	float: left;
+	font-size: 25px;
+	background: white;
+	padding: 10px; /* 글자와 백그라드 색의 거리 */
+	margin: 30px; /* li와 li의 거리 */
+}
+
+li:hover{
+	background: red;
+	font-size: 25px;
+	border-radius: 40px;
+}
+
+
+
+#total{
+	width: 800px;
+	height: 800px;
+	background: black;
+}
+
+#top{
+		width: 800px;
+	height: 100px;
+	background: blue;
+	
+}
+
+.right{
+		height: 10px;
+}
+
+
+

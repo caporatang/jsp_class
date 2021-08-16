@@ -1,0 +1,62 @@
+@charset "UTF-8";
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	background: red;
+	text-decoration: overline;
+	color: white;
+}
+
+#total{
+	width: 800px;
+	height: 800px;
+	background: lime;
+	
+}
+#top{
+	width: 800px;
+	height: 100px;
+	background: aqua;
+}
+#top2{
+	width: 300 px;
+	height: 100 px;
+	background: black;
+	color: white;
+	position: fixed;
+	top: 5px;
+	right: 5px;
+	border-radius: 100px 0 100px 0; /* 사각형을 둥글게 만들수있는 기능 */
+}
+#center{
+	width: 800px;
+	height: 500px;
+	background: url('../img/yuja.JPG') /* .. <- css파일을 한번 나가라는 의미 */
+}
+
+li{
+	list-style: none;
+	float: left;
+	font-size: 25px;
+	background: orange;
+	padding: 10px; /* 글자와 백그라드 색의 거리 */
+	margin: 5px; /* li와 li의 거리 */
+}
+
+li:nth-child(2n+1){ /* nth-child > 짝수만 지정> 2n , 홀수만 눌렀을 때 > 2n + 1 */
+	background: yellow;
+}
+
+
+
+li:hover { /* 콜론하고 hover < 마우스를 올렸을때의 효과  */
+	list-style: none;
+	float: left;
+	font-size: 25px;
+	background: pink;
+	padding: 10px; /* 글자와 백그라드 색의 거리 */
+	margin: 5px; /* li와 li의 거리 */
+	border-radius: 30px;
+}
