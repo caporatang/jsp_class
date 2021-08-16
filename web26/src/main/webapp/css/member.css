@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* 선택자는 세가지로 나뉜다
+	1. tag - html에 있는 태그중에 하나를 선택한다
+	2. class - 특정한 부분을 묶을 수 있다. 클래스명을 지정 해줘야한다.
+	3. id = 특정한 부분에서 그 안에서 특정한걸 다시 선택해서 지정 해준다..
+ */
+
+
+#data{ /* 선택: 아이디 */
+	font-style: italic;
+}
+
+input{
+	font-size: 40px;
+	height: 100px;
+}
+
+
+body{ /* 선택: 태그를 선택한것이다. */
+	color: blue;
+	font-size: 40px;
+}
+
+.left{ /* 클래스를 선택 해준것이다. - 그룹을 지어서 여러개를 동일한 효과를 주고자 하는 경우 */
+	/* 원하는 반경을 지정할때는 클래스를 지정하는데 그것을 class라고 한다 */
+	background: yellow;
+	height: 100px;
+	width: 200px;
+	text-align: center; /* 글자를 가운데 정렬 시킨다. */
+}
+
+.right{
+	width: 300px; /* css에서 스타일을 숫자로 지정하는 경우에는 반드시 px(픽셀)를 입력한다 */
+	background: blue;
+}
+
+button{
+	background: red;
+	color: white;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.bottom{
+	background: maroon;
+	text-align: center;
+	height: 100px;
+}
